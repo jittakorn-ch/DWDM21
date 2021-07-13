@@ -1,9 +1,9 @@
 # DWDM21
-Data Warehouse & Data Mining 2021
+### Data Warehouse & Data Mining 2021
 
 นาย จิตรกร จันทะสี 623021044-1
 
-Group Name 
+*Group Name*: **แมวส้มสร้างตัว**
 1. **จิตรกร จันทะสี**
 2. **คำแสน แก้วพิภพ**
 3. **วานิตา สมเด็จ**
