@@ -69,6 +69,34 @@
       * Distance function
       * Manhattan Distance (L1-norm)
       * Distance of Binary Value
+* บทที่ 3: [Data Preprocessig](https://github.com/jittakorn-ch/DWDM21/blob/main/Data_Preprocessing_(Chapter3).ipynb)
+  * การชี้ข้อมูลในตาราง
+    * ชี้แบบธรรมดา [ชื่อคอลัมน์][index]
+    * ชี้แบบ .iloc[] (มองข้อมูลเป็น matrix)
+  * Missing Values
+    * Handling Missing value 1 (ลบค่า missing)
+    * เขียน function หาว่าการทำ dropna() ทำให้ข้อมูลหายไปกี่ %
+    * Handling Missing Value 1.5 (ลบค่า missing เฉพาะใน column ที่เราสนใจ)
+    * Handling Missing Value 2 (แทนด้วย class ใหม่ (unknown))
+    * Handling Missing Value 3 (แทนด้วย class ใหม่ (ค่าที่เหมาะสม))
+    * Handling Missing Value 4 (แทนด้วย ค่ากลาง)
+    * Handling Missing Value 5 (แทนด้วย ค่ากลางของ samples ใน class เดียวกัน)
+  * Select data by values [PD]
+    * สร้าง list ของ boolean
+    * นำ list ของ boolean มาเลือกค่าในตาราง
+  * ต่อตางแนวแกน Y [PD]
+    * Handling Missing Value 5 (แทนด้วย ค่ากลางของ sample ใน class เดียวกัน) ต่อ
+    * การเรียงข้อมูล [PD]
+  * หา Outlier
+    * เขียนฟังค์ชั่น คำนวณ หา Q1,Q2,Q3,IQR,vmin,vmax โดยรับ input เป็น output ขอบ boxplot
+    * เขียน function box_vals ให้สามารถรับ input ที่ box plot วาดแบบแนวนอนได้ (vert = False)
+    * Panda's looping (.ilerrows)
+  * การรวมตาราง (ต่อตารางในแนวแกน x)
+    * รวม 2 ตาราง (.merge())
+    * เลือกมาเฉพาะ column ที่ต้องการมาแปะ (.map())
+  * Group by (pandas)
+  * [PD] save ตารางเอาไปใช้ที่อื่น
+  * [PD] การสร้างตาราง
       
 
 
