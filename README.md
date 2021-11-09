@@ -18,7 +18,7 @@
       * Knowledge Discovery (KDD) Process
       * ขั้นตอนการทำเหมืองข้อมูล
       * เทคนิคของ Data Mining
-* บทที่ 2: Know Your Data
+* บทที่ 2: Getting to Know Your Data
   * [มิติของ Data](https://github.com/jittakorn-ch/DWDM21/blob/main/Chapter2%20(note).pdf) (บรรยาย)
   * [Basic Python](https://github.com/jittakorn-ch/DWDM21/blob/main/Data101_(Chapter2).ipynb)
     * Varibles
@@ -97,7 +97,25 @@
   * Group by (pandas)
   * [PD] save ตารางเอาไปใช้ที่อื่น
   * [PD] การสร้างตาราง
-      
+  
+* บทที่ 4: Data Warehousing and On-line Analytical Processing
+
+* บทที่ 5: Association Rules
+  * [Mining Frequent Patterns, Association and Correlations](https://github.com/jittakorn-ch/DWDM21/blob/main/Chapter6%20(lecture).pdf) (บรรยาย)
+    * What Is Pattern Discovery
+    * Basic Concepts
+    * Apriori
+  * [Data 'reduced_marketbasket' Case](https://github.com/jittakorn-ch/DWDM21/blob/main/Chapter6_Association_Rules.ipynb)
+    * HW
+      * มีประเทศสาขาของ Supermarket นี้ทั้งหมดกี่ประเทศ
+      * วาดกราฟสรุปจำนวน items และ ยอดขายของแต่ละประเทศ
+        * เพิ่มคอลัมน์ ยอดขาย (Quantity x UnitPrice)
+        * จัดกลุ่มและหายอดขายรวม
+        * จัดกลุ่มและหายอดขายรวม
+    * เรียนต่อ
+        * ลบ records ที่ถูก cancel ออกไป
+        * เตรียม data สำหรับ (Fequence Pattern) Association Rule
+        * Apriori
 
 
 
