@@ -128,6 +128,7 @@
     * Classification-Model Construction, Validation and Testing
     * Decision Tree Induction
     * Information Gain
+  * [Decision Tree คำนวนมือ](https://github.com/jittakorn-ch/DWDM21/blob/main/Decision_Tree-%E0%B8%84%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%93%E0%B8%A1%E0%B8%B7%E0%B8%AD.pdf) (บรรยาย การบ้าน)
   * [Decision Tree](https://github.com/jittakorn-ch/DWDM21/blob/main/Chapter7_Classification_(Decision_Tree).ipynb)
     * Load Data
     * Train Model
@@ -184,6 +185,27 @@
       * ใช้ centroid เป็นตัวแทนของสี
       * การแทนสีคืนลงไป
 
+* MiniExam
+  * [Data flights and airports Case](https://github.com/jittakorn-ch/DWDM21/blob/main/MiniExam.ipynb)
+    * หารัฐที่มีจำนวนเครื่องบินขาออกมากที่สุดและน้อยที่สุด
+    * สายการบินอะไรมีความล่าช้ามากที่สุดและน้อยที่สุด
+    * เปรียบเทียบความล่าช้าของการบินในแต่ละวัน
+ 
+* Project Group
+  * [Project Group](https://github.com/jittakorn-ch/DWDM21/blob/main/Group_Project.ipynb)
+    * Data and Preprocessing
+    * ปัญหา
+      * Association Rules
+      * Classification
+        * Split Data
+        * Decision Tree
+        * KNN
+        * Neural Network
+        * Retrain & Evaluate
+      * Visualization
+        * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
+        * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
+   * [Slide นำเสนอ](https://github.com/jittakorn-ch/DWDM21/blob/main/Slide%20Present_PROJECT_DWDM21.pdf)
 
 
 
